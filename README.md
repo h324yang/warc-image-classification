@@ -5,6 +5,7 @@
     $ git clone https://github.com/archivesunleashed/aut.git
     $ cd aut
     $ mvn clean install -DskipTests
+    $ cd ..
 
 #### Downloading Spark 
 	$ curl -L "https://archive.apache.org/dist/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz" > spark-2.3.2-bin-hadoop2.7.tgz 
