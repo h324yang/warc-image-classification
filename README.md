@@ -15,8 +15,8 @@
 	pip install -r req.txt
 
 #### Set Up StandAlone Mode
-    ./spark-2.3.2-bin-hadoop2.7/start-master.sh
-    ./spark-2.3.2-bin-hadoop2.7/start-slave.sh 127.0.1.1:7077
+    ./spark-2.3.2-bin-hadoop2.7/sbin/start-master.sh
+    ./spark-2.3.2-bin-hadoop2.7/sbin/start-slave.sh 127.0.1.1:7077
 
 #### Run
     sh run_detection.sh
